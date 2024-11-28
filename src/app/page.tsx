@@ -38,26 +38,28 @@ export default function Home() {
         />
 
         <section className="container grid justify-items-center px-3 md:grid-cols-2 md:space-x-4 xl:px-0">
-          <div>
-            <h2 className="mb-10 ms-3 text-3xl text-primary md:mb-16 md:ps-0">
+          <div className="*:my-3">
+            <h2 className="ms-3 pb-8 text-3xl text-primary md:ps-0">
               Every Emotion captured By &quot;Namiko&quot;
             </h2>
-            <div className="*:my-3">
-              <Image
-                className="rounded-xl"
-                src={imgDummy1}
-                alt="Present Product"
-              />
-              <div className="px-3">
-                <p>
-                  Namiko x Linsy ชุดโต๊ะอาหารลายหินอ่อน 6 ที่นั่ง รุ่น
-                  LS151ZH47R1003 - Green
-                </p>
-                <b className="text-xl text-primary">฿ 59,900.-</b>
-              </div>
+            <Image
+              className="rounded-xl"
+              src={imgDummy1}
+              alt="Present Product"
+            />
+            <div className="px-3">
+              <p>
+                Namiko x Linsy ชุดโต๊ะอาหารลายหินอ่อน 6 ที่นั่ง รุ่น
+                LS151ZH47R1003 - Green
+              </p>
+              <b className="text-xl text-primary">฿ 59,900.-</b>
             </div>
           </div>
+
           <div className="*:my-3">
+            <h2 className="ms-3 pb-8 text-3xl text-primary opacity-0 md:ps-0">
+              Every Emotion captured By &quot;Namiko&quot;
+            </h2>
             <Image
               className="rounded-xl"
               src={imgDummy2}
