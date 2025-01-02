@@ -1,9 +1,9 @@
 import Link from "next/link";
 import Image from "next/image";
-import imgBanner from "@images/banner__namiko-banner-1.png";
-import imgDummy1 from "@images/dummy-home-namiko-present-1.png";
-import imgDummy2 from "@images/dummy-home-namiko-present-2.png";
-import imgShowCase2 from "@images/dummy-namiko-showcase-2.png";
+import imgBanner from "@images/Web-Brand-Namiko_1200x553.jpg";
+import imgDummy1 from "@images/Web-Brand-Namiko_582x700-02.jpg";
+import imgDummy2 from "@images/Web-Brand-Namiko_582x700-03.jpg";
+import imgShowCase2 from "@images/Web-Brand-Namiko_582x582.png";
 import imgIcon1 from "@images/dummy-standard-icon-1.png";
 import imgIcon2 from "@images/dummy-standard-icon-2.png";
 import imgIcon3 from "@images/dummy-standard-icon-3.png";
@@ -49,10 +49,10 @@ export default function Home() {
             />
             <div className="px-3">
               <p>
-                Namiko x Linsy ชุดโต๊ะอาหารลายหินอ่อน 6 ที่นั่ง รุ่น
-                LS151ZH47R1003 - Green
+                Namiko กล่องอาหารสเตนเลสทรงกลม พร้อมช้อน 1-2 ชั้น มี 2 ขนาด
+                700ml, 1400ml
               </p>
-              <b className="text-xl text-primary">฿ 59,900.-</b>
+              <b className="text-xl text-primary">฿ 259.-</b>
             </div>
           </div>
 
@@ -67,9 +67,10 @@ export default function Home() {
             />
             <div className="px-3">
               <p>
-                Namiko x Linsy Modern ชั้นไม้วางของ 4 ชั้น 1 ตู้ - Dark Brown
+                Namiko ชุดไม้ถูพื้นพร้อมถัง Flat Mop FM1 / Spin Mop FM2 / Spray
+                Mop SM1 ซักน้ำและรีดน้ำในตัวเดียว
               </p>
-              <b className="text-xl text-primary">฿ 11,990.-</b>
+              <b className="text-xl text-primary">฿ 1,799.-</b>
             </div>
           </div>
         </section>
@@ -81,16 +82,20 @@ export default function Home() {
           <div
             className="rounded-xl bg-cover bg-center"
             style={{
-              backgroundImage: "url(./images/dummy-namiko-showcase-1.png)",
+              backgroundImage: "url(./images/Web-Brand-Namiko_1200x450.jpg)",
             }}
           >
-            <div className="w-full p-16 pb-20 text-white md:w-1/2">
-              <p className="mb-4">Namiko x Linsy โซฟาหนังแท้พร้อมที่วางเท้า</p>
+            <div className="w-full px-16 py-28 pb-20 text-white md:w-1/2">
+              <p className="mb-4">
+                Namiko Capsule Umbrella ร่มแคปซูล พกพาสะดวก ป้องกันยูวี 99.9%
+                รุ่น PFU1
+              </p>
               <p className="mb-8">
                 <small>
-                  โซฟาหนังนุ่ม พร้อมที่วางเท้า โซฟาหนังพนักพิงศีรษะหนังวัว
-                  บุด้วขนห่าน ตัวโครงเป็นไม้เนื้อแข็ง
-                  มีความแข็งแรงทนทานใช้งานได้ยาวนาน
+                  รังสี UVB สามารถทะลุเข้าถึงผิวหนังชั้นกำพร้าได้เท่านั้น
+                  ก่อให้เกิด ผิวไหม้แดด
+                  เป็นรอยคล้ำดำบางบริเวณที่ถูกอาบรังสีมากเกินไป และอาจส่งผล DNA
+                  ใต้หนังกำพร้าแปรสภาพเป็นเซลล์มะเร็งผิวหนังในอนาคต
                 </small>
               </p>
               <button>
@@ -111,10 +116,16 @@ export default function Home() {
 
         <section className="container flex flex-wrap items-center justify-center px-5 md:px-0">
           <div className="order-2 space-y-6 px-3 text-primary md:order-1 md:basis-1/2 xl:px-0">
-            <h2 className="text-3xl">Namiko กล่องอาหารสเตนเลส 4 ช่อง 1500ml</h2>
+            <h2 className="text-3xl">
+              Namiko ถังขยะอัจฉริยะ พร้อมระบบดูดถุงอัตโนมัติ ขนาด 14 ลิตร รุ่น
+              Smart one
+            </h2>
             <p>
-              สามารถเก็บความร้อนได้ดี ออกแบบให้เติมน้ำร้อนเพื่อรักษาอุณหภูมิ
-              เวลาเข้าไมโครเวฟกรุณานำแผ่นสแตตนเลสออก
+              Namiko ถังขยะอัจฉริยะ พร้อมระบบดูดถุงอัตโนมัติ ขนาด 14 ลิตร รุ่น
+              Smart one เป็นถังขยะอัจฉริยะขนาดเล็ก ที่มาพร้อมกับขนาดความจุ 14
+              ลิตร เซ็นเซอร์อินฟราเรดตรวจจับการเคลื่อนไหว ระบบ
+              เซ็นเซอร์อินฟราเรด
+              เพื่อเปิด/ปิดอัตโนมัติลดความเสี่ยงของการติดเชื้อแบคทีเรีย
             </p>
             <button className="underline-offset-4 hover:underline">
               <Link href={"/products"} className="flex items-center">
@@ -123,7 +134,7 @@ export default function Home() {
               </Link>
             </button>
           </div>
-          <div className="py-3 md:order-2 md:basis-1/2">
+          <div className="py-3 px-20 md:order-2 md:basis-1/2">
             <Image src={imgShowCase2} alt="Showcase" />
           </div>
         </section>
