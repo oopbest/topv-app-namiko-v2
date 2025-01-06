@@ -43,7 +43,7 @@ export default function Footer() {
     <>
       {/* <!-- Footer--> */}
       <footer
-        className="lg:bg-cover lg:bg-center bg- px-4 py-6 text-sm text-white opacity-80 lg:pt-10 lg:text-base"
+        className="bg- px-4 py-6 text-sm text-white opacity-80 lg:bg-cover lg:bg-center lg:pt-10 lg:text-base"
         style={{
           backgroundImage: "url(../images/footer-background-namiko.png)",
         }}
@@ -67,7 +67,7 @@ export default function Footer() {
               <div className="p-3 md:p-0">
                 <p>
                   <FontAwesomeIcon icon={faLocationDot} />
-                  บริษัท สวิทซเฟลคซ จำกัด เลขที่ 30/119 หมู่ 1 ต.โคกขาม อ.เมือง
+                  บริษัท อเล็กทริค จำกัด เลขที่ 30/119 หมู่ 1 ต.โคกขาม อ.เมือง
                   จ.สมุทรสาคร 74000
                 </p>
                 <div className="pt-6">
@@ -175,19 +175,27 @@ export default function Footer() {
                     alt="Topvalue"
                     className="me-3 ms-2 w-5"
                   />
-                  <a href={STORE_TOPVALUE_ROUTE_PATH} target="_blank">Topvalue</a>
+                  <a href={STORE_TOPVALUE_ROUTE_PATH} target="_blank">
+                    Topvalue
+                  </a>
                 </li>
                 <li className="flex">
                   <Image src={imgShopee} alt="Shopee" className="me-2" />
-                  <a href={STORE_SHOPEE_ROUTE_PATH} target="_blank">Shopee</a>
+                  <a href={STORE_SHOPEE_ROUTE_PATH} target="_blank">
+                    Shopee
+                  </a>
                 </li>
                 <li className="flex">
                   <Image src={imgLazada} alt="Lazada" className="me-2" />
-                  <a href={STORE_LAZADA_ROUTE_PATH} target="_blank">Lazada</a>
+                  <a href={STORE_LAZADA_ROUTE_PATH} target="_blank">
+                    Lazada
+                  </a>
                 </li>
                 <li className="flex">
                   <Image src={imgJd} alt="JD Central" className="me-2" />
-                  <a href={STORE_JD_ROUTE_PATH} target="_blank">JD Central</a>
+                  <a href={STORE_JD_ROUTE_PATH} target="_blank">
+                    JD Central
+                  </a>
                 </li>
               </ul>
             </div>

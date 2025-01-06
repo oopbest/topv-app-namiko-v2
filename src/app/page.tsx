@@ -134,7 +134,7 @@ export default function Home() {
               </Link>
             </button>
           </div>
-          <div className="py-3 px-20 md:order-2 md:basis-1/2">
+          <div className="px-20 py-3 md:order-2 md:basis-1/2">
             <Image src={imgShowCase2} alt="Showcase" />
           </div>
         </section>
@@ -230,7 +230,7 @@ export default function Home() {
             <p className="text-gray-400">
               <small>เกี่ยวกับ</small>
             </p>
-            <b className="text-xl text-primary">บริษัท สวิทซ เฟรคซ จำกัด</b>
+            <b className="text-xl text-primary">บริษัท อเล็กทริค จำกัด</b>
             <p className="text-gray-400">
               ก่อตั้งขึ้นเมื่อปี 2005
               โดยกลุ่มวิศวกรที่มีความเชี่ยวชาญในงานเครื่องจักรโดยเฉพาะ
