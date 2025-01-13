@@ -9,7 +9,7 @@ import imgIcon2 from "@images/dummy-standard-icon-2.png";
 import imgIcon3 from "@images/dummy-standard-icon-3.png";
 import imgLogo from "@images/logo.svg";
 import imgAbout from "@images/switchflex-new-670x440.jpg";
-import imgSwf from "@images/switchflex-logo.svg";
+import imgSwf from "@images/alectric-2024.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebook,
@@ -255,7 +255,7 @@ export default function Home() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Image src={imgSwf} alt="switchflex" />
+                <Image src={imgSwf} alt="switchflex" className="w-20 border shadow rounded-lg hover:border-primary"/>
               </a>
             </div>
           </div>
