@@ -3,7 +3,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagnifyingGlass, faBars } from "@fortawesome/free-solid-svg-icons";
 import Image from "next/image";
-import logo from "@images/logo.svg";
+// import logo from "@images/logo.png";
 import MunuList from "../menu/menu-list";
 import MenuSearch from "../menu/menu-search";
 import MenuMobile from "../menu/menu-mobile";
@@ -30,7 +30,7 @@ export default function Header() {
 
   return (
     <>
-      <header className="sticky top-0 z-10 bg-white py-4 shadow-md">
+      <header className="sticky top-0 z-10 bg-white py-3 shadow-md">
         <nav className="container mx-auto flex w-full items-center lg:px-3 xl:px-0">
           <button
             className="mx-5 flex items-center lg:hidden"
@@ -40,7 +40,7 @@ export default function Header() {
             <FontAwesomeIcon icon={faBars} className="size-4" />
           </button>
           <Link href="/">
-            <Image src={logo} alt="logo" />
+            <Image src="/images/logo.png" alt="logo" width={120} height={60} />
           </Link>
           <ul className="hidden w-full justify-evenly underline-offset-4 *:text-primary lg:flex hover:[&_a]:underline">
             <MunuList />

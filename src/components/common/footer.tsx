@@ -14,7 +14,7 @@ import imgTopv from "@images/site-topvalue.svg";
 import imgShopee from "@images/site-shopee.svg";
 import imgLazada from "@images/site-lazada.svg";
 import imgJd from "@images/site-jd.svg";
-import imgLogoFooter from "@images/namiko-logo-footer.svg";
+// import imgLogoFooter from "@images/namiko-logo-footer.svg";
 import {
   FOLLOW_FACEBOOK_ROUTE_PATH,
   FOLLOW_LINE_ROUTE_PATH,
@@ -207,8 +207,10 @@ export default function Footer() {
           <div className="w-full content-center lg:w-1/5">
             <Image
               className="mx-auto text-white lg:mx-0"
-              src={imgLogoFooter}
+              src="/images/logo-white.png"
               alt="altec-logo"
+              width={100}
+              height={60}
             />
           </div>
           <div className="flex-1 pt-3 text-center lg:pt-0">
