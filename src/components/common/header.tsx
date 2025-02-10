@@ -40,6 +40,7 @@ export default function Header() {
             <FontAwesomeIcon icon={faBars} className="size-4" />
           </button>
           <Link href="/">
+            {/* <Image src="/images/logo.png" alt="logo" width={120} height={60} /> */}
             <Image src="/images/logo.png" alt="logo" width={120} height={60} />
           </Link>
           <ul className="hidden w-full justify-evenly underline-offset-4 *:text-primary lg:flex hover:[&_a]:underline">

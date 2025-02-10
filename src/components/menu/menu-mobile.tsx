@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faX } from "@fortawesome/free-solid-svg-icons";
 import MunuList from "./menu-list";
 import Image from "next/image";
-import logo from "@images/logo.svg";
+// import logo from "@images/logo.svg";
 import {
   FOLLOW_FACEBOOK_ROUTE_PATH,
   FOLLOW_INSTAGRAM_ROUTE_PATH,
@@ -32,7 +32,8 @@ export default function MenuMobile({ toggleMenu, isOpenMenu }: Props) {
         } `}
       >
         <div className="flex justify-between p-6">
-          <Image src={logo} alt="logo" />
+          {/* <Image src={logo} alt="logo" /> */}
+          <Image src="/images/logo.png" alt="logo" width={90} height={60} />
 
           <button onClick={toggleMenu}>
             <FontAwesomeIcon icon={faX} />

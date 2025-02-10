@@ -7,7 +7,7 @@ import imgShowCase2 from "@images/Web-Brand-Namiko_582x582.png";
 import imgIcon1 from "@images/dummy-standard-icon-1.png";
 import imgIcon2 from "@images/dummy-standard-icon-2.png";
 import imgIcon3 from "@images/dummy-standard-icon-3.png";
-import imgLogo from "@images/logo.svg";
+// import imgLogo from "@images/logo.svg";
 import imgAbout from "@images/switchflex-new-670x440.jpg";
 import imgSwf from "@images/alectric-2024.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -172,7 +172,13 @@ export default function Home() {
           <div className="flex flex-wrap items-center justify-center">
             <div className="mb-5 flex items-center divide-x *:px-5 sm:mb-0">
               <h4 className="text-primary">ติดตามเรา</h4>
-              <Image className="h-5" src={imgLogo} alt="logo" />
+              {/* <Image className="h-5" src={imgLogo} alt="logo" /> */}
+              <Image
+                src="/images/logo.png"
+                alt="logo"
+                width={120}
+                height={60}
+              />
             </div>
             <div className="space-x-1 *:size-12 *:rounded-full *:border-2 *:border-primary *:bg-primary *:text-white hover:[&_button]:bg-white hover:[&_button]:text-primary">
               <button>
@@ -255,7 +261,11 @@ export default function Home() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Image src={imgSwf} alt="switchflex" className="w-20 border shadow rounded-lg hover:border-primary"/>
+                <Image
+                  src={imgSwf}
+                  alt="switchflex"
+                  className="w-20 rounded-lg border shadow hover:border-primary"
+                />
               </a>
             </div>
           </div>
